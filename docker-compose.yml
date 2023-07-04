@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  model:
+    image: "model:latest"
+    env_file:
+      - .env
+    build: .
